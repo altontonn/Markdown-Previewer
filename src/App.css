@@ -1,3 +1,28 @@
 #app {
-  background: #87b5b5
+  background: #87b5b5;
+
+}
+.wrapper {
+  width: 690px;
+  margin: 1.125rem auto;
+}
+
+#editor {
+  width: 100%;
+  overflow-y: scroll;
+  min-height: 200px;
+  outline: none;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #4aa3a3;
+  padding: 0.3rem;
+  border: 1px solid #1d2f2f;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+  font-family: Russo One;
+  font-size: 1rem;
+  color: black;
 }
