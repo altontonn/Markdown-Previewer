@@ -17,7 +17,7 @@ class InputController extends React.Component {
       <>
         <div className="wrapper">
           <div className="toolbar">
-          <i className="fa-brands fa-free-code-camp"></i>
+            <i className="fa-brands fa-free-code-camp"></i>
             Editor
             <i className="fa fa-arrows-alt"></i>
           </div>
@@ -27,12 +27,17 @@ class InputController extends React.Component {
             onChange={this.handleChange}
           ></textarea>
         </div>
-        <p>Controlled Input: </p>
-        <textarea
-          cols="100"
-          id="preview"
-          defaultValue={this.state.input}
-        ></textarea>
+        <div className="previewWrapper">
+          <div className="toolbar">
+            <i className="fa-brands fa-free-code-camp"></i>
+            Preview
+            <i className="fa fa-arrows-alt"></i>
+          </div>
+          <textarea
+            id="preview"
+            defaultValue={this.state.input}
+          ></textarea>
+        </div>
       </>
     );
   }

@@ -6,7 +6,7 @@
   margin: 1.125rem auto;
 }
 
-#editor {
+.wrapper #editor {
   width: 100%;
   overflow-y: scroll;
   min-height: 200px;
@@ -28,4 +28,20 @@
   font-family: Russo One;
   font-size: 1rem;
   color: black;
+}
+
+.previewWrapper {
+  max-width: 800px;
+  margin: 1.25rem auto;
+  min-height: 200px;
+  overflow-wrap: break-word;
+}
+
+.previewWrapper #preview {
+  width: 100%;
+  height: auto;
+  padding: 0 1rem;
+  background-color: #c0d8d8;
+  border: 1px solid #1d2f2f;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
 }
