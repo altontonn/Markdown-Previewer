@@ -17,7 +17,7 @@ class InputController extends React.Component {
       <>
         <div className="wrapper">
           <div className="toolbar">
-          <i class="fa-brands fa-free-code-camp"></i>
+          <i className="fa-brands fa-free-code-camp"></i>
             Editor
             <i className="fa fa-arrows-alt"></i>
           </div>

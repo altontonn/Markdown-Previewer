@@ -1,6 +1,5 @@
 #app {
   background: #87b5b5;
-
 }
 .wrapper {
   width: 690px;
@@ -12,6 +11,10 @@
   overflow-y: scroll;
   min-height: 200px;
   outline: none;
+  background-color: #c0d8d8;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+  border: 1px solid #1d2f2f;
+  border-top: none;
 }
 
 .toolbar {
