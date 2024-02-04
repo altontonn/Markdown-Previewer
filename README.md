@@ -59,11 +59,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Allows users to input Markdown text in the editor, and the preview section will render the formatted HTML**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
