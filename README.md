@@ -154,9 +154,7 @@ Feel free to check the [issues page](https://github.com/altontonn/Markdown-Previ
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project freecodecamp give it ⭐️.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -164,9 +162,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank freeCodeCamp <i className="fa-brands fa-free-code-camp"></i> for their ultimate support and gudance
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
