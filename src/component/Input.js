@@ -4,7 +4,7 @@ class InputController extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      input: "",
+      input: "# Hello, Marked!",
       preview: ""
     };
     this.handleChange = this.handleChange.bind(this);

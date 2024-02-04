@@ -40,7 +40,7 @@
 
 .previewWrapper #preview {
   width: 100%;
-  height: auto;
+  min-height: 200px;
   padding: 0 1rem;
   background-color: #c0d8d8;
   border: 1px solid #1d2f2f;
