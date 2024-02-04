@@ -11,9 +11,12 @@ class InputController extends React.Component {
   }
   handleChange = (event) => {
     const markedInput = event.target.value;
+    const markedOptions = {
+      breaks: false
+    };
     this.setState({
       input: markedInput,
-      preview: marked(markedInput)
+      preview: marked(markedInput, markedOptions)
     });
   };
   render() {

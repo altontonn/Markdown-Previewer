@@ -26,11 +26,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [MarkDown Previewer] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+**[MarkDown Previewer]** is an app that allows users to input Markdown text in the editor, and the preview section will render the formatted HTML. The previewer supports line breaks and various Markdown syntax.
 
 ## 🛠 Built With <a name="built-with"></a>
 
