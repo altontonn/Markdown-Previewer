@@ -1,15 +1,19 @@
 import React from "react";
+import { marked } from "marked";
 class InputController extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       input: "",
+      preview: ""
     };
     this.handleChange = this.handleChange.bind(this);
   }
   handleChange = (event) => {
+    const markedInput = event.target.value;
     this.setState({
-      input: event.target.value,
+      input: markedInput,
+      preview: marked(markedInput)
     });
   };
   render() {
@@ -33,10 +37,10 @@ class InputController extends React.Component {
             Preview
             <i className="fa fa-arrows-alt"></i>
           </div>
-          <textarea
+          <div
             id="preview"
-            defaultValue={this.state.input}
-          ></textarea>
+            dangerouslySetInnerHTML={{ __html: this.state.preview }}
+          ></div>
         </div>
       </>
     );
