@@ -121,18 +121,13 @@ Install this project with:
   cd markdown-previewer
   npm install
   yarn install
+```
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+*  Run `npm start` to start the server.
 
 ### Run tests
 
