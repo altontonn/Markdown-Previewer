@@ -161,7 +161,7 @@ If you like this project freecodecamp give it ⭐️.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank freeCodeCamp <i className="fa-brands fa-free-code-camp"></i> for their ultimate support and gudance
+I would like to thank freeCodeCamp for their ultimate support and gudance
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
