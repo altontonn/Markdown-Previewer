@@ -63,7 +63,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Coming Soon](#)
+- [see live](https://markpreviewer.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -107,7 +107,6 @@ Clone this repository to your desired folder:
   cd my-folder
   git clone https://github.com/altontonn/Markdown-Previewer.git
 ```
-
 
 ### Install
 
